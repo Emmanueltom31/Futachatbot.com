@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive · specific prompt chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="chat-card">
+    <div class="chat-header">
+        <span class="status-dot"></span>
+        <h3>⚡ Futa chat bot</h3>
+        <span class="badge">specific · v1</span>
+    </div>
+
+    <!-- suggestion chips for specific prompts -->
+    <div class="suggestion-area" id="suggestionChips">
+        <span class="chip" data-prompt="hello">👋 hello</span>
+
+
+<span class="chip" data-prompt="help">🆘 help</span>
+        <span class="chip" data-prompt="How old is Futa"> How Old is Futa</span>
+        <span class="chip" data-prompt="time">⏱️ time</span>
+        <span class="chip" data-prompt="weather">🌤️ weather</span>
+        <span class="chip" data-prompt="motivate">💪 motivate</span>
+    </div>
+
+    <!-- messages container -->
+    <div class="chat-window" id="chatWindow">
+        <!-- welcome message (bot) -->
+        <div class="message bot-message">
+            <div class="bubble">
+                👋 Hey! I am Futa chat-bot I respond to specific prompts about Futa : <strong>hello, help, joke, time, weather, motivate</strong> — or just type one.
+            </div>
+        </div>
+    </div>
+
+    <!-- input area -->
+    <div class="input-area">
+        <div class="input-wrapper">
+            <input type="text" id="userInput" placeholder="type a prompt ..." autocomplete="off">
+            <button id="sendBtn" aria-label="send message">
+                <svg viewBox="0 0 24 24"><path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/></svg>
+            </button>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <div class="chat-footer">
+        <span>© 2026</span>
+        <span class="footer-heart">❤️</span>
+        <span>Designed by </span>
+        <span class="footer-designer">ICT Group 3</span>
+    </div>
+</div>
+
+    
+
+<script src="script.js"></script>
+
+</body>
+</html>
